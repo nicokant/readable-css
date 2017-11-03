@@ -1,4 +1,3 @@
-
 #content {
   font-family: $serifFont, serif;
   font-size: $baseFontSize;
@@ -22,6 +21,7 @@
   letter-spacing: .003em;
 
   h1, h2, h3, h4, h5, h6 {
+    margin: $baseFontSize/2 0;
     font-family: $sansFont, sans-serif;
     font-weight: 700;
     color: #222;
@@ -53,7 +53,7 @@
 
   header {
     padding-bottom: $baseFontSize;
-    margin: 1em 0;
+    margin-bottom: 1em;
 
     h1, h2 {
       margin: .5em 0;
