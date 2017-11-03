@@ -1,4 +1,4 @@
-#content {
+.readable-content {
   font-family: $serifFont, serif;
   font-size: $baseFontSize;
   color: #555;
@@ -21,7 +21,6 @@
   letter-spacing: .003em;
 
   h1, h2, h3, h4, h5, h6 {
-    margin: $baseFontSize/2 0;
     font-family: $sansFont, sans-serif;
     font-weight: 700;
     color: #222;
@@ -85,6 +84,10 @@
     max-width: 80%;
     display: block;
     margin: auto;
+  }
+
+  * {
+    margin: $baseFontSize/2 0;
   }
 }
 
