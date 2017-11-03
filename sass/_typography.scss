@@ -6,13 +6,17 @@
 
   max-width: $max-width + 2;
   margin: auto;
+  padding: 1em;
+
+  &.no-margin {
+    max-width: none;
+    margin: 0;
+  }
 
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased !important;
   -moz-font-smoothing: antialiased !important;
   text-rendering: optimizelegibility !important;
-
-  padding: 0 1em;
 
   line-height: $line-height;
   letter-spacing: .003em;
@@ -75,11 +79,6 @@
     &:hover {
       color: #333;
     }
-  }
-
-  mark {
-    background-color: $marker-color;
-    color: inherit;
   }
 
   img {
