@@ -2,6 +2,7 @@
 #content {
   font-family: $serifFont, serif;
   font-size: $baseFontSize;
+  color: #555;
 
   max-width: $max-width + 2;
   margin: auto;
@@ -63,21 +64,16 @@
     }
   }
 
-  main {
-    color: #555;
+  p {
     line-height: $line-height;
+    color: #555;
+  }
 
-    p {
-      line-height: $line-height;
-      color: #555;
-    }
+  a {
+    color: #555;
 
-    a {
-      color: #555;
-
-      &:hover {
-        color: #333;
-      }
+    &:hover {
+      color: #333;
     }
   }
 
