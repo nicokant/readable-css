@@ -39,5 +39,40 @@
   h6 {
     font-size: $baseFontSize;
   }
+
+  header {
+    padding-bottom: $baseFontSize;
+    margin: 1em 0;
+
+    h1, h2 {
+      margin: .5em 0;
+    }
+
+    &.center {
+      text-align: center;
+    }
+
+    h2 {
+      color: #777;
+    }
+  }
+
+  main {
+    color: #555;
+    line-height: $line-height;
+
+    p {
+      line-height: $line-height;
+      color: #555;
+    }
+
+    a {
+      color: #555;
+
+      &:hover {
+        color: #333;
+      }
+    }
+  }
   }
 }
