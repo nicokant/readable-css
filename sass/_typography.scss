@@ -14,6 +14,7 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: $sansFont, sans-serif;
     font-weight: 700;
+    color: #222;
   }
 
   h1 {
@@ -74,5 +75,15 @@
       }
     }
   }
+
+  mark {
+    background-color: $marker-color;
+    color: inherit;
+  }
+
+  img {
+    max-width: 80%;
+    display: block;
+    margin: auto;
   }
 }
