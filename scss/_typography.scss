@@ -15,7 +15,7 @@
 
   font-family: $serifFont, serif;
   font-size: $baseFontSize;
-  color: #555;
+  color: $text-color;
 
   max-width: $max-width + 2;
   margin: auto;
@@ -37,7 +37,7 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: $sansFont, sans-serif;
     font-weight: 700;
-    color: #222;
+    color: $title-color;
   }
 
   h1 {
@@ -77,21 +77,22 @@
     }
 
     h2 {
-      color: #777;
+      color: $subtitle-color;
     }
   }
 
   p {
     line-height: $line-height;
-    color: #555;
+    color: $text-color;
+    margin: $baseFontSize 0;
   }
 
   a {
-    color: #555;
+    color: $text-color;
     text-decoration: underline;
 
     &:hover {
-      color: #333;
+      color: $title-color;
     }
   }
 
@@ -101,13 +102,9 @@
     margin: $baseFontSize 0;
     margin-left: -10%;
   }
-
-  * {
-    margin: $baseFontSize/2 0;
-  }
 }
 
 mark {
-  color: #555;
+  color: $text-color;
   background-color: $marker-color;
 }
