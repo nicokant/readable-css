@@ -1,6 +1,6 @@
 {
   "name": "readable-css",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
@@ -18,7 +18,8 @@
   },
   "files": [
     "css/readable.css",
-    "css/readable.min.css"
+    "css/readable.min.css",
+    "scss"
   ],
   "dependencies": {
     "reset-css": "^2.2.1"
