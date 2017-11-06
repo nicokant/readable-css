@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Catamaran:700');
-
-$serifFont: 'Noto Serif';
-$sansFont: 'Catamaran';
+$fontsUrl: 'https://fonts.googleapis.com/css?family=Noto+Serif|Catamaran:700' !default;
+$serifFont: 'Noto Serif' !default;
+$sansFont: 'Catamaran' !default;
 
 $baseFontSize: 1.3em !default;
 $line-height: 1.58 !default;

@@ -1,3 +1,15 @@
+@if variable-exists(sansUrl) {
+  @import url($sansUrl);
+}
+
+@if variable-exists(serifUrl) {
+  @import url($serifUrl);
+}
+
+@if variable-exists(fontUrl) {
+  @import url($fontsUrl);
+}
+
 .readable-content {
   @import 'node_modules/reset-css/_reset.scss';
 
