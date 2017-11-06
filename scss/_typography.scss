@@ -1,4 +1,6 @@
 .readable-content {
+  @import 'node_modules/reset-css/_reset.scss';
+
   font-family: $serifFont, serif;
   font-size: $baseFontSize;
   color: #555;
