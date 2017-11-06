@@ -74,6 +74,7 @@
 
   a {
     color: #555;
+    text-decoration: underline;
 
     &:hover {
       color: #333;
@@ -81,9 +82,10 @@
   }
 
   img {
-    max-width: 80%;
+    max-width: 120%;
     display: block;
-    margin: auto;
+    margin: $baseFontSize 0;
+    margin-left: -10%;
   }
 
   * {
