@@ -107,9 +107,17 @@
       margin-left: -10%;
     }
   }
-}
 
-mark {
-  color: $text-color;
-  background-color: $marker-color;
+  mark {
+    color: $text-color;
+    background-color: $marker-color;
+  }
+
+  strong, b {
+    font-weight: 'bold';
+  }
+
+  em, i, cite, blockquote {
+    font-style: 'italic';
+  }
 }
