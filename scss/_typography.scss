@@ -97,10 +97,15 @@
   }
 
   img {
-    max-width: 120%;
+    max-width: 100%;
     display: block;
-    margin: $baseFontSize 0;
-    margin-left: -10%;
+    margin: $baseFontSize auto;
+
+    &.big {
+      width: 120%;
+      margin: $baseFontSize 0;
+      margin-left: -10%;
+    }
   }
 }
 
