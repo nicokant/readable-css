@@ -1,0 +1,6 @@
+@mixin marginDefault ($fontSize) {
+  margin-top: $fontSize;
+  margin-bottom: $fontSize;
+  margin-right: 0;
+  margin-left: 0;
+}
