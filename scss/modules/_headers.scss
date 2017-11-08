@@ -1,0 +1,47 @@
+h1, h2, h3, h4, h5, h6 {
+  @include marginDefault($baseFontSize);
+  font-family: $sansFont, sans-serif;
+  font-weight: 700;
+  color: $title-color;
+}
+
+h1 {
+  font-size: $baseFontSize * 2;
+}
+
+h2 {
+  font-size: $baseFontSize * 1.5;
+}
+
+h3 {
+  font-size: $baseFontSize * 1.25;
+}
+
+h4 {
+  font-size: $baseFontSize;
+}
+
+h5 {
+  font-size: $baseFontSize;
+}
+
+h6 {
+  font-size: $baseFontSize;
+}
+
+header {
+  padding-bottom: $baseFontSize;
+  margin-bottom: 1em;
+
+  h1, h2 {
+    margin: .5em 0;
+  }
+
+  &.center {
+    text-align: center;
+  }
+
+  h2 {
+    color: $subtitle-color;
+  }
+}

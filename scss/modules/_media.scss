@@ -1,0 +1,11 @@
+img {
+  max-width: 100%;
+  display: block;
+  margin: $baseFontSize auto;
+
+  &.big {
+    @include marginDefault($baseFontSize);
+    width: 120%;
+    margin-left: -10%;
+  }
+}

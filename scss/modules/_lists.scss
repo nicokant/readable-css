@@ -1,0 +1,28 @@
+ul {
+  list-style: disc outside none;
+}
+
+ol {
+  list-style: decimal outside none;
+}
+
+li {
+  @include marginDefault($baseFontSize/2);
+  margin-left: $baseFontSize;
+}
+
+dl {
+  @include marginDefault($baseFontSize);
+
+  dt {
+    font-weight: 700;
+  }
+
+  dd {
+    margin-left: $baseFontSize;
+  }
+
+  dt + dd {
+    margin-bottom: $baseFontSize;
+  }
+}

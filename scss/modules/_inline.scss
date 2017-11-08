@@ -1,0 +1,47 @@
+a {
+  color: $text-color;
+  text-decoration: underline;
+
+  &:hover {
+    color: $title-color;
+  }
+}
+
+mark {
+  color: $text-color;
+  background-color: $marker-color;
+}
+
+strong, b {
+  font-weight: 700;
+}
+
+em, i, cite, blockquote, q {
+  font-style: italic;
+}
+
+small {
+  font-size: $baseFontSize * 0.6;
+}
+
+big {
+  font-size: $baseFontSize * 1.2;
+}
+
+abbr[title], acronym[title] {
+  text-decoration: underline dotted;
+}
+
+sup {
+  vertical-align: super;
+  font-size: $baseFontSize * 0.6;
+}
+
+sub {
+  vertical-align: sub;
+  font-size: $baseFontSize * 0.6;
+}
+
+u {
+  text-decoration: underline;
+}

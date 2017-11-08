@@ -1,0 +1,20 @@
+p {
+  @include marginDefault($baseFontSize);
+  line-height: $line-height;
+  color: $text-color;
+  font-family: $serifFont, serif;
+}
+
+blockquote {
+  @include marginDefault($baseFontSize);
+  margin-left: $baseFontSize;
+  border-left: $baseFontSize/4 solid #dddddd;
+  padding-left: $baseFontSize;
+}
+
+code {
+  background-color: #dddddd;
+  opacity: .9;
+  padding: $baseFontSize/8 $baseFontSize/4;
+  border-radius: 3px;
+}
