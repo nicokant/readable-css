@@ -1,0 +1,43 @@
+@import 'mixins';
+
+@if variable-exists(sansUrl) {
+  @import url($sansUrl);
+}
+
+@if variable-exists(serifUrl) {
+  @import url($serifUrl);
+}
+
+@if variable-exists(fontsUrl) {
+  @import url($fontsUrl);
+}
+
+.readable-content {
+  @import 'node_modules/reset-css/_reset.scss';
+  @import 'modules/headers';
+  @import 'modules/inline';
+  @import 'modules/media';
+  @import 'modules/content';
+  @import 'modules/lists';
+
+  font-family: $serifFont, serif;
+  font-size: $baseFontSize;
+  color: $text-color;
+
+  max-width: $max-width + 2;
+  margin: auto;
+  padding: 1em;
+
+  &.no-margin {
+    max-width: none;
+    margin: 0;
+  }
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  text-rendering: optimizelegibility !important;
+
+  line-height: $line-height;
+  letter-spacing: .003em;
+}
