@@ -1,6 +1,6 @@
 $fontsUrl: 'https://fonts.googleapis.com/css?family=Noto+Serif|Catamaran:700' !default;
 $serifFont: 'Noto Serif' !default;
-$sansFont: Catamaran !default;
+$sansFont: 'Catamaran' !default;
 
 $baseFontSize: 1.3em !default;
 $line-height: 1.58 !default;
@@ -11,3 +11,6 @@ $text-color: #555 !default;
 $title-color: #222 !default;
 $subtitle-color: #777 !default;
 $marker-color: rgba(82, 232, 165, 0.3) !default;
+$table-background-color: rgb(58, 83, 155) !default;
+$table-text-color: #222 !default;
+$table-border-color: #777 !default;

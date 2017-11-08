@@ -1,0 +1,24 @@
+table {
+  text-align: center;
+  vertical-align: middle;
+  color: $table-text-color;
+}
+
+td, th {
+  border-width: 1px;
+  border-style: solid;
+  border-color: $table-border-color;
+  padding: 0 1em;
+}
+
+th {
+  font-weight: 700;
+}
+
+thead th{
+  background-color: rgba($table-background-color, .7);
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba($table-background-color, .2);
+}
